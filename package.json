@@ -1,5 +1,6 @@
 {
-  "name": "money-theory",
+  "homepage": "https://robd01.github.io/findmypurpose/",
+  "name": "Find-my-purpose",
   "private": true,
   "version": "0.0.0",
   "type": "module",
