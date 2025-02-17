@@ -25,7 +25,7 @@ export const bottombarLinks = sidebarLinks;
 
 export const business = {
   name: "Find My Purpose",
-  email: "moneytheory34@gmail.com",
+  email: "test@gmail.com",
   detail: "Career Consulting",
   video: "https://www.youtube.com/embed/00i0E2b7ypk?si=Cyshe9jPOIa1FflH",
 };
