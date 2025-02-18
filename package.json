@@ -1,7 +1,7 @@
 {
   "homepage": "https://robd01.github.io/findmypurpose/",
   "name": "find-my-purpose",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
