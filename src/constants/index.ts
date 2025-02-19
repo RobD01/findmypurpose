@@ -27,6 +27,7 @@ export const business = {
   name: "Find My Purpose",
   email: "test@gmail.com",
   detail: "Career Consulting",
+  video: "test",
 };
 
 export const homeLinks = [
