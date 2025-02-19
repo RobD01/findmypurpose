@@ -1,12 +1,11 @@
 import { business } from "@/constants";
-import YoutubeEmbed from "./YoutubeEmbed";
 
 type HomeCardProps = {
   post: {
     id: number;
     name?: string | undefined;
     address?: string | undefined;
-    video?: string | undefined;
+    image?: string | undefined;
   };
 };
 
@@ -38,7 +37,7 @@ const HomeCard = ({ post }: HomeCardProps) => {
           {map}
         </>
       ) : null}
-      {post.video ? <YoutubeEmbed /> : null}
+      {post.image ? <img src={post.image} /> : null}
     </div>
   );
 };

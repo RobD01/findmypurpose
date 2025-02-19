@@ -27,7 +27,6 @@ export const business = {
   name: "Find My Purpose",
   email: "test@gmail.com",
   detail: "Career Consulting",
-  video: "https://www.youtube.com/embed/00i0E2b7ypk?si=Cyshe9jPOIa1FflH",
 };
 
 export const homeLinks = [
@@ -50,7 +49,7 @@ export const homeInfo = [
   },
   {
     id: 2,
-    video: false,
+    image: `/${basename}/assets/images/Ngon.png`,
   },
 ];
 
