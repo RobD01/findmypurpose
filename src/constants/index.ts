@@ -1,21 +1,21 @@
+const github = true;
+
+export const basename = github ? "findmypurpose" : null;
+
 export const sidebarLinks = [
   {
-    imgURL: "/assets/icons/home.svg",
+    imgURL: `/${basename}/assets/icons/home.svg`,
     route: "/",
     label: "Home",
   },
   {
-    imgURL: "/assets/icons/shopping.svg",
+    imgURL: `/${basename}/assets/icons/shopping.svg`,
     route: "/product",
     label: "Products",
   },
+
   {
-    imgURL: "/assets/icons/gift.svg",
-    route: "/sponsor",
-    label: "Sponsor",
-  },
-  {
-    imgURL: "/assets/icons/calendar.svg",
+    imgURL: `/${basename}/assets/icons/calendar.svg`,
     route: "/appointment",
     label: "Appointment",
   },
@@ -32,14 +32,14 @@ export const business = {
 
 export const homeLinks = [
   {
-    imgURL: "/assets/images/meeting.jpg",
+    imgURL: `/${basename}/assets/images/meeting.jpg`,
     route: "/product",
     label: "Products & Services",
   },
   {
-    imgURL: "/assets/images/sponsor.jpg",
-    route: "/sponsor",
-    label: "Become a Sponsor",
+    imgURL: `/${basename}/assets/images/sponsor.jpg`,
+    route: "/appointment",
+    label: "Book an appointment",
   },
 ];
 
